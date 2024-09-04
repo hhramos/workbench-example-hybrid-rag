@@ -101,9 +101,7 @@ execution:
     gpu:
       requested: 1
     sharedMemoryMB: 4096
-  secrets:
-  - variable: NGC_CLI_API_KEY
-    description: NGC API Key for NIM authentication
+  secrets: []
   mounts:
   - type: project
     target: /project/
