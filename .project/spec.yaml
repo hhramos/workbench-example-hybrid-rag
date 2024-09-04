@@ -101,7 +101,9 @@ execution:
     gpu:
       requested: 1
     sharedMemoryMB: 4096
-  secrets: []
+  secrets:
+  - variable: henrykey1
+    description: ""
   mounts:
   - type: project
     target: /project/
