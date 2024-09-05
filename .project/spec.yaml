@@ -102,7 +102,7 @@ execution:
       requested: 1
     sharedMemoryMB: 4096
   secrets:
-  - variable: henrykey1
+  - variable: NVCF_RUN_KEY
     description: ""
   mounts:
   - type: project
