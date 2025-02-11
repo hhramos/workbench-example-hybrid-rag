@@ -36,7 +36,7 @@ from chatui.pages import utils
 
 _LOGGER = logging.getLogger(__name__)
 PATH = "/"
-TITLE = "Hybrid RAG: Chat UI"
+TITLE = "Hybrid RAG: Lenovo PSREF"
 OUTPUT_TOKENS = 250
 MAX_DOCS = 5
 
