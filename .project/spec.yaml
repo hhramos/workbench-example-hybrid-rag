@@ -103,9 +103,7 @@ execution:
     sharedMemoryMB: 4096
   secrets:
   - variable: NVCF_RUN_KEY
-    description: ""
-  - variable: Server_Key_NVai
-    description: Server Key NVai created 3.10.2025
+    description: NVIDIABuild-Autogen-99  Expires 9/10/2025
   mounts:
   - type: project
     target: /project/
